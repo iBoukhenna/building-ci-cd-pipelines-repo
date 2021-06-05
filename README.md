@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/iBoukhenna/building-ci-cd-pipelines-repo/actions/workflows/main.yml/badge.svg)](https://github.com/iBoukhenna/building-ci-cd-pipelines-repo/actions/workflows/main.yml)
+
 # Overview
 
 <TODO: complete this with an overview of your project>

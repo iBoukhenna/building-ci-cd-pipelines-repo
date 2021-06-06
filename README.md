@@ -34,7 +34,7 @@ ssh-keygen -t rsa
 * Clone the repository using Azure Cloud Shell
 
 ```
-git@github.com:iBoukhenna/building-ci-cd-pipelines-repo.git
+git clone git@github.com:iBoukhenna/building-ci-cd-pipelines-repo.git
 ```
 
 * Change into the new directory

@@ -17,6 +17,10 @@ Setup CI/CD Pipeline for building a Python web application and deploying it usin
 
 ![pycharm1](imgs/building-ci-cd-pipelines-architecture.svg)
 
+* Screenshot of a GitHub Actions build
+
+![pycharm1](imgs/working-github-actions-build.PNG)
+
 * Launch Azure Cloud Shell
 
 ![pycharm1](imgs/launch-azure-cloud-shell.PNG)
@@ -102,6 +106,10 @@ az webapp up --sku F1 -n building-ci-cd-pipelines-asa
 
 ![pycharm1](imgs/azure-devops-pipelines.PNG)
 
+* Screenshot of a successful run of the project in Azure Pipelines
+
+![pycharm1](imgs/successful-run-project-azure-pipelines.PNG)
+
 * Get app logs
 
 ```
@@ -125,12 +133,38 @@ az webapp log tail
 
 ![pycharm1](imgs/log-a.PNG)
 
+* We can also use locust to do a load test of the app running locall, for that install locust
+
+```
+pip install locust
+```
+
+* Run the app
+
+```
+python app.py
+```
+
+* Start locust
+
+```
+locust
+```
+
+1. Open a browser and go to http://localhost:8089.
+2. Enter the total number of users to simulate and spawn rate.
+3. Set the host to localhost:5000 and click Start Swarming.
+
+![pycharm1](imgs/run-locust.PNG)
+
+* You can then watch the load test:
+
+![pycharm1](imgs/result-locust.PNG)
+
 ## Enhancements
 
-Add develop branch for developement envirenement if it works correctly the changes could then be merged in master branch and deployed in production envirenement 
+Add develop branch for developement envirenement if it works correctly the changes could then be merged in master branch and deployed in production envirenement.
 
-## Demo 
+## Demo
 
 * A [YouTube Demo] : https://www.youtube.com/watch?v=ARjVELogBVw
-
-

@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+building-ci-cd-pipelines-venv/Scripts/
+building-ci-cd-pipelines-venv/

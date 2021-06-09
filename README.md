@@ -161,6 +161,16 @@ locust
 
 ![pycharm1](imgs/result-locust.PNG)
 
+4. Open a new tab in browser and go to http://localhost:8089.
+5. Enter the total number of users to simulate and spawn rate.
+6. Set the host with the link of azure webapp https://building-ci-cd-pipelines-asa.azurewebsites.net:5000 and click Start Swarming.
+
+![pycharm1](imgs/run-locust-azure.PNG)
+
+* You can then watch the load test:
+
+![pycharm1](imgs/result-locust-azure.PNG)
+
 ## Enhancements
 
 Add develop branch for developement envirenement if it works correctly the changes could then be merged in master branch and deployed in production envirenement.
